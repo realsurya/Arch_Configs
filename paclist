@@ -1,14 +1,1 @@
-ttf-dejavu-fonts
-ttf-font-awesome
-fish
-firefox
-foot
-htop
-neovim
-neofetch
-light
-pulseaudio
-pavucontrol
-sway
-waybar
-wofi
+ttf-dejavu ttf-font-awesome fish firefox foot git htop neovim neofetch light pulseaudio pavucontrol sway waybar wofi
