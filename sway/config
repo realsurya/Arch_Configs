@@ -78,7 +78,7 @@ gaps inner 20
     bindsym $mod+q kill
 
     # Start your launcher
-    bindsym $mod+d exec wofi --show run -G -I -m
+    bindsym $mod+d exec wofi --show run -G -I -m -p '(  >Search<  )' -H 20% -W 30% -location=center -term=foot style.css
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
