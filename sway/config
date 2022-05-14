@@ -19,7 +19,7 @@ set $term foot
 ### Output configuration
 #
 # Wallpaper
-output * bg /home/surya/.config/bgs/bg2.jpg fill
+output * bg /home/surya/.config/bgs/bg10.jpg fill
 #
 # Example configuration:
 #
@@ -233,7 +233,7 @@ bar {
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-    status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
+    #status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
 
  #   colors {
   #      statusline #ffffff
