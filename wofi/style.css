@@ -1,0 +1,67 @@
+/* My Color Vars */
+
+@define-color el-text-color-inactv #ffffff;
+@define-color el-text-color-actv #ffffff;
+@define-color el-bg-color-actv rgba(0, 0, 0, 0.25);
+@define-color el-bg-color-inactv rgba(100, 114, 125, 0.85);
+@define-color el-bg-color-transparent rgba(0, 0, 0, 0);
+@define-color el-uline-color #FFFFFF;
+
+* {
+    font-family: FontAwesome, "IBM Plex Sans";
+    font-size: 16px;
+    border-radius: 15px;
+    padding:3px;
+    justify-content: center;
+    /*background-color: @el-bg-color-inactv;*/
+}
+
+window {
+    margin: 0px;
+    border: 0px;
+    background-color: @el-bg-color-inactv;
+    border-radius: 10px;
+}
+
+#input {
+    margin: 5px;
+    border-radius: 20px;
+    background-color: el-bg-color-actv;
+    box-shadow: 0 2px @el-uline-color;
+}
+
+#inner-box {
+    margin: 5px;
+    border: 0px;
+    /*background-color: @el-bg-color-inactv;*/
+}
+
+#outer-box {
+    margin: 5px;
+   /* border: 2px @el-bg-color-inactv;
+    background-color: @el-bg-color-inactv;*/
+}
+
+#scroll {
+    margin: 5px;
+    border: 0px;
+    /*background-color: @el-bg-color-inactv;*/
+}
+
+#text {
+    padding: 7px;
+    border: 0px;
+    color: el-text-color-inactv;
+    /*background-color: @el-bg-color-inactv;*/
+    /*box-shadow: 0 2px @el-uline-color;*/
+}
+
+#entry:selected {
+   background-color: @el-bg-color-actv;
+   box-shadow: 0 2px @el-uline-color;
+}
+
+#text:selected {
+    color: @el-text-color-actv;
+    /*background-color: @el-bg-color-actv;*/
+}
