@@ -168,7 +168,7 @@
         "interval": 600,
         "format": "{}",
         "tooltip": true,
-        "tooltip-format": "Weather in LAF",
+        "tooltip-format": "Weather in LAF {}",
         "exec": "curl -s https://wttr.in/laf?format='%f+%C'"
     }
 }
