@@ -11,13 +11,13 @@
     font-family: FontAwesome, "IBM Plex Sans";
     font-size: 15px;
     border-radius: 15px;
-    padding:3px;
+    padding: 3px;
 }
 
 window#waybar {
     background-color: @el-bg-color-transparent;
     transition-property: background-color;
-    transition-duration: .5s;   
+    transition-duration: .5s;
 }
 
 window#waybar.hidden {
@@ -44,6 +44,8 @@ window#waybar.chromium {
 */
 
 #workspaces button {
+    margin-left: 2px;
+    margin-right: 2px;
     padding: 0 5px;
     background-color: @el-bg-color-inactv;
     color: @el-text-color-inactv;
@@ -92,7 +94,6 @@ window#waybar.chromium {
     color: @el-text-color-inactv;
 }
 
-#window,
 #workspaces {
     margin: 0 4px;
 }

@@ -19,7 +19,7 @@ set $term foot
 ### Output configuration
 #
 # Wallpaper
-output * bg /home/surya/.config/bgs/bg10.jpg fill
+output * bg /home/surya/.config/bgs/bg2.jpg fill
 #
 # Example configuration:
 #
